@@ -1,0 +1,42 @@
+.bd{
+	background-color: #D2691E;
+	font-family: 'Nunito', sans-serif;
+	overflow-x: hidden;
+}
+.c1{
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+#b{
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 60px;
+}
+#navmain .navbar-brand {
+	color: white;
+	font-weight: 800;
+	font-size: 2.25rem;
+}
+#navmain .navbar-brand:hover {
+	color: #F5DEB3;
+}
+#navmain{
+	font-size: 1.5rem;
+	font-weight: 100;
+	background: #808000; 
+}
+#navmain .nav-link{
+	color: white;
+
+}
+#navmain .nav-link:hover{
+	color: #F5DEB3;
+	
+}
+
+.card:hover {
+    transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}

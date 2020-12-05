@@ -1,0 +1,96 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.bd{
+	background-color: #D2691E;
+	font-family: 'Nunito', sans-serif;
+}
+.c1{
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+#blurb h2{
+	color: black;
+	font-weight: 600;
+	font-size: 2rem;
+}
+#blurb p{
+	color: white;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 2;
+}
+.mar{
+	margin-top: 100px;
+	
+}
+#navmain .navbar-brand {
+	color: white;
+	font-weight: 800;
+	font-size: 2.25rem;
+}
+#navmain .navbar-brand:hover {
+	color: #F5DEB3;
+}
+#navmain{
+	font-size: 1.5rem;
+	font-weight: 100;
+	background: #808000; 
+}
+#navmain .nav-link{
+	color: white;
+
+}
+#navmain .nav-link:hover{
+	color: #F5DEB3;
+	
+}
+.navbar.scrolled{
+	background: red;
+	transition: background 1s;
+}
+#head h1{
+	font-weight: 500;
+	font-size: 2.5rem;
+}
+.ho:hover{
+	color: khaki;
+}
+.ho{
+	color: white;
+}
+.ht{
+	font-size: 2rem;
+	font-weight: 700;
+}
+.ci{
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+@media (max-width: 1200px){
+#head h1{
+	font-weight: 100;
+	font-size: 1.5rem;
+}	
+}
+
+.imgaq{
+	width: 100%;
+    height: 60vmax;
+    object-fit: cover;
+}
+
+.slid{
+	color: white;
+}
+
+.slid:hover{
+	color: thistle;
+	font-weight: 800;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
