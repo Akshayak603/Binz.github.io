@@ -1,42 +1,76 @@
+html,body{
+	 width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .bd{
-	background-color: #D2691E;
+	background-color: black;
 	font-family: 'Nunito', sans-serif;
-	overflow-x: hidden;
 }
 .c1{
-	font-size: 1.5rem;
-	font-weight: 400;
+	font-size: 1.20rem;
+	font-weight: 300;
 }
-#b{
-	background-color: black;
+.jumbo{
+	background-color: #1a1110;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	margin-top: 60px;
 }
 #navmain .navbar-brand {
-	color: white;
+	color: #484848;
 	font-weight: 800;
 	font-size: 2.25rem;
 }
 #navmain .navbar-brand:hover {
-	color: #F5DEB3;
+	color: #C00000;
+	text-shadow: 1px 1px 2px;
 }
 #navmain{
 	font-size: 1.5rem;
 	font-weight: 100;
-	background: #808000; 
+	background: #F8F8F8; 
 }
 #navmain .nav-link{
-	color: white;
+	color: #484848;
 
 }
 #navmain .nav-link:hover{
-	color: #F5DEB3;
+	color: #C00000;
+	text-shadow: 1px 1px 3px;
 	
+}
+/*img-top*/
+.card-img-top {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
 }
 
 .card:hover {
     transform: scale(1.03);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  	box-shadow: 0 5px 10px white;
+}
+.foo{
+	margin-right:0;
+	padding: 0;
+}
+.foot{
+	background-color: #505050;
+	font-family: 'Inconsolata', monospace;
+	padding: 20px 5px 20px 10px;
+}
+/*links of mood*/
+#bc:hover{
+    background-color: #DCDCDC;
+
+}
+#bc1{
+    font-weight: 700;
+}
+.ott{
+	font-family: 'Cinzel', serif;
 }
