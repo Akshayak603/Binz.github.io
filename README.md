@@ -1,3 +1,3 @@
 # Binz.github.io
-html css bootsrap learning project
-Akshay
+- pretty much first html css bootsrap learning project
+- By Akshay
